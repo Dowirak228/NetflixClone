@@ -1,3 +1,3 @@
 # NetflixClone
 
-Just creating Netflix clone app from tutorial for experience
+Just creating Netflix clone app for experience
