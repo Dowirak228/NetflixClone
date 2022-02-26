@@ -24,6 +24,8 @@
 		D5F58A7C27C909E00049FF63 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F58A7B27C909E00049FF63 /* TitleCollectionViewCell.swift */; };
 		D5F58A7F27C90AEB0049FF63 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D5F58A7E27C90AEB0049FF63 /* SDWebImage */; };
 		D5F58A8127C90AEB0049FF63 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D5F58A8027C90AEB0049FF63 /* SDWebImageMapKit */; };
+		D5F58A8327CA63AA0049FF63 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F58A8227CA63AA0049FF63 /* TitleTableViewCell.swift */; };
+		D5F58A8527CA65EA0049FF63 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F58A8427CA65EA0049FF63 /* TitleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		D5EAF98E27B3BC9B005CEB4C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D5EAF99027B3BE8F005CEB4C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		D5F58A7B27C909E00049FF63 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5F58A8227CA63AA0049FF63 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		D5F58A8427CA65EA0049FF63 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				D5159C8D2795709C0080898A /* CollectionViewTableViewCell.swift */,
 				D54C7872279C843300D1508F /* HeroHeaderUIView.swift */,
 				D5F58A7B27C909E00049FF63 /* TitleCollectionViewCell.swift */,
+				D5F58A8227CA63AA0049FF63 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		D5159C892795703A0080898A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D5F58A8427CA65EA0049FF63 /* TitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F58A8327CA63AA0049FF63 /* TitleTableViewCell.swift in Sources */,
 				D5159C85279514E10080898A /* SearchViewController.swift in Sources */,
 				D5F58A7C27C909E00049FF63 /* TitleCollectionViewCell.swift in Sources */,
 				D5159C70279513C30080898A /* MainTabBarViewController.swift in Sources */,
@@ -235,6 +242,7 @@
 				D5159C81279514AA0080898A /* HomeViewController.swift in Sources */,
 				D5EAF99127B3BE8F005CEB4C /* Title.swift in Sources */,
 				D5282F3B27A96A8100F99EF0 /* ApiCaller.swift in Sources */,
+				D5F58A8527CA65EA0049FF63 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
