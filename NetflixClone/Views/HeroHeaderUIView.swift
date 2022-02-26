@@ -74,7 +74,6 @@ class HeroHeaderUIView: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
         heroImageView.frame = bounds
-        
     }
     
     required init?(coder: NSCoder) {
